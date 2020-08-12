@@ -4,13 +4,14 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">          
     
 </head>
 <body>
     <header>
-        <img src="./assets/img/victor.jpeg.jpg" alt="Foto do candidato mais promissor que você encontrará!" width="96px" height="96px" height="96px">
-        <h1 style="color: royalblue;">Programador Web Junior</h1>
+        <img data-func="minha foto" src="./assets/img/victor.jpeg.jpg" alt="Foto do candidato mais promissor que você encontrará!" width="96px" height="96px" height="96px"> <br>
+        <h1>Programador Web Junior</h1>
         <ul type="none">
             <li>Victor Henrique da Silva Segatelli </li>
             <a href="tel:+5511999019908" title="Me liga!"> +55 (11) 99901 9908</a>
@@ -100,39 +101,74 @@
         </section>
         <section class="destaque">
             <he>Entre em contato comigo!
-                <p>Entre em contato através do meu E-mail, LinkedIn, Whatsapp, Telefone ou, preencha o formulário a seguir que retornarei o contato com a maior brevidade possível.</p>
-                <form action="obrigado.html" method="get" enctype="multipart/form-data">
-                    <label for="">Empresa interessada</label><br>
-                    <input type="text"><br>
+                <p>Entre em contato através do meu E-mail, LinkedIn, Whatsapp, Telefone ou, preencha o formulário a seguir que retornarei o contato com a maior brevidade possível.</p> <br>
+                
+                <form action="./obrigado.htm" method="post"></form>
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlInput1">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect1">Example select</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlSelect2">Example multiple select</label>
+                      <select multiple class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea1">Example textarea</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                  </form>
+                <br>
+                  
 
-                    <label type="E-mail">Email</label><br>
-                    <input type="email"><br>
+                <div>
+                    <h5>EXPERIÊNCIA DESEJADA</h5>
+                    <input type="radio" id="jr" name="xp" value="jr">
+                    <label for="jr">Júnior</label><br>
+                    <input type="radio" id="pl" name="xp" value="pl">
+                    <label for="pl"> Pleno</label><br>
+                    <input type="radio" id="sr" name="xp" value="sr">
+                    <label for="sr"> Senior </label><br>
+                </div> <br>
 
-                    <label for="">Anexe um arquivo</label><br>
-                    <input type="file"><br>
+                <div>
+                    <h5>ESCOPO DE ATUAÇÃO</h5>
+                    <input type="checkbox" name="front" id="front">
+                    <label for="front"> Front End</label><br>
+                    <input type="checkbox" name="back" id="back">
+                    <label for="back">Back End</label><br>
+                </div> <br>
 
-                    <label for="">Telefone</label><br>
-                    <input type="tel"><br>
+                <label for="contratacao">Contratação</label><br>
+                <select name="cotratacao" id="contratacao">
+                <option disabled selected value="">Contratação</option>                    
+                <option value="clt">CLT</option>
+                <option value="pj">PJ</option>
+                </select>
 
-                    <label for="">Anos de mercado da empresa</label><br>
-                    <input type="number"><br>
+                <div></div>
 
-                    <label for="">Cor do logo da empresa</label><br>
-                    <input type="color"><br>
-
-                    <label for="">Data prevista para início do trabalho</label><br>
-                    <input type="date" name="" id=""><br>
-
-                    <label for="">Deixe aqui seus comentários</label><br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
-
+                <label for="">Deixe aqui seus comentários</label><br>
+                    <textarea name="" id="" cols="40" rows="10"></textarea><br>
                     <button type="reset">Limpar</button>
-
                     <button type="submit">Enviar</button>                    
 
-                    </label>
-
-                </form>
                 
                 
             </he>
@@ -141,5 +177,9 @@
     <footer>
         <p>Victor Henrique da Silva Segatelli 2020 &copy; | <a href="mailto:victorsegatelli@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil!">victorsegatelli@gmail.com |  <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Me escreva no Whatsapp</a></p>
     </footer>
+    <a href="#top">Ir para o topo</a>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>

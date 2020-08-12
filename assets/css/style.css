@@ -1,32 +1,7 @@
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;    
-}
-body{
-    padding: 32px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: crimson;
-}
-section{
-    border: 1px solid#808080;
-    padding: 16px;
+  scroll-behavior: smooth; 
 }
 
-section.destaque {
-    background-color: #dfdfdf;;
-    border-radius: 8px;
-}
 
-.destaque{
-    color: #1443dc;
-}
-#email {
-    background-color: darkgoldenrod;
-}

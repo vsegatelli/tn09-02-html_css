@@ -5,6 +5,18 @@
   scroll-behavior: smooth; 
 }
 
+img{
+  background-size: 100%;
+  position: relative;
+
+}
+
+
+body{
+  font-family: Arial;
+  font-size: 16px;
+}
+
 main{
   margin-top: 56px;
   min-height: calc(100vh - 100px);
@@ -12,8 +24,18 @@ main{
 
   footer{
     height: 44px;
+    background-color: silver;
+  text-align: center;
   }
   
+  img{
+    height: 100%;
+    width: auto;
+  }
 
-
-
+footer{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+  

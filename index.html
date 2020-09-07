@@ -1,145 +1,130 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/style.css">          
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
+
 <body>
-    <header>
-        <img src="./assets/img/victor.jpeg.jpg" alt="Foto do candidato mais promissor que você encontrará!" width="96px" height="96px" height="96px">
-        <h1 style="color: royalblue;">Programador Web Junior</h1>
-        <ul type="none">
-            <li>Victor Henrique da Silva Segatelli </li>
-            <a href="tel:+5511999019908" title="Me liga!"> +55 (11) 99901 9908</a>
-            <li></li>
-            <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Me escreva no Whatsapp</a>
-            <li></li>
-            <a href="mailto:victorsegatelli@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil!">victorsegatelli@gmail.com
-            <li><a href="https://www.linkedin.com/in/victor-segatelli-b292b0b8/" target="_blank" 
-                rel="noopener noreferrer">linkedin.com/in/victor-segatelli/</a></li>
-                <li><a href="https://github.com/vsegatelli" target="_blank" 
-                    rel="noopener noreferrer">github.com/vsegatelli</a></li>
-     
-               
-    </header>
-    <hr>
-    <main>
-        <section>
-            <h2 style="color: royalblue;">SOBRE</h2>
-            <p><bold>Desejo ser dev full stack!</bold>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum modi nostrum illum, neque ipsa ratione consectetur quos quam esse saepe, nesciunt ipsam dignissimos iste, aut placeat expedita porro impedit. Facilis.</p>
-        </section>
-        <section>
-            <h2 style="color: royalblue;">SKILLS</h2>
-            <h3 style="color: royalblue;">SOFT SKILLS</h3>
-            <ul>
-                <li>Comunicação Clara</li>
-                <li>Tomada de Decisões</li>
-                <li><strong>Trabalho em equipe </strong></li>
-                <li>Resiliência</li>
-            </ul>
-            
-            <h3 style="color: royalblue;">HARD SKILLS</h3>
-            <ul>
-                <li>
-                    <h4>Java/Android</h4>
-                    <ul>
-                 <h4>Front End</h4>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>React.js</li>
-                </ul>
-                </li>
-            </ul>
-            <h4>Back End</h4>
-            <ul>
-                <li>PHP</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-                
-            </ul>
-        </section>
-        <section>
-            <h2 style="color: royalblue;">FORMAÇÃO</h2>
-            <table>
-                <tr>
-                    <th colspan="3">Ano</th>
-                </tr>
-                <tr>
-                    <td>Programação Web Full Stack</td>
-                    <td>Digital House</td>
-                    <td rowspan="2">Extensão</td>
-                </tr>
-                <tr>
-                    <td>Perucas para Carecas</td>
-                    <td>Digital Hair</td>
-                </tr>
-                <tr>
-                    <td>Inglês</td>
-                    <td>Wiseup</td>
-                    <td>Idioma</td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <h2 style="color: royalblue;">EXPERIÊNCIA</h2>
-            <table>
-                <tr>
-                    <td>NTT</td>
-                    <td>Analista</td>
-                    <td>Mar/19 - Atual</td>
-                </tr>
-                <tr>
-                    <td>Cobasi</td>
-                    <td>Analista de Suporte</td>
-                    <td>Out/17 - Atual</td>
-                </tr>
-            </table>
-        </section>
-        <section class="destaque">
-            <he>Entre em contato comigo!
-                <p>Entre em contato através do meu E-mail, LinkedIn, Whatsapp, Telefone ou, preencha o formulário a seguir que retornarei o contato com a maior brevidade possível.</p>
-                <form action="obrigado.html" method="get" enctype="multipart/form-data">
-                    <label for="">Empresa interessada</label><br>
-                    <input type="text"><br>
+  <header class="fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Programador Web Junior</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#top">Início <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#xp">Experiência</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#formacao">Formação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+</header>"
+  <header>
+    
+    <div class="media">
+      <img src="./assets/img/victor.jpeg.jpg">
+      <div class="media-body">
+        <h5 class="mt-0">Victor Segatelli</h5>
+        
+        <p>Victor Henrique da Silva Segatelli</p>
+            <a href="tel:+5511999019908" title="Me liga!"> Telefone: (11) 9990-19908</a><br>
+            <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Me escreva no Whatsapp</a><br>
+            <a href="mailto:victorsegatelli@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil!">E-mail<br>
+            <a href="https://www.linkedin.com/in/victor-segatelli-b292b0b8/" target="_blank" 
+                rel="noopener noreferrer">linkedin.com/in/victor-segatelli/</a><br>
+                <a href="https://github.com/vsegatelli" target="_blank" 
+                    rel="noopener noreferrer">github.com/vsegatelli</a><br>
+  </header>
+<hr>
+<main>
+   
+    
+      <div>
+        <h2>Descrição</h2>
+        <p> Gratuated in Network Computers, Maintenance of Pc’s, notebooks, printers, software, hardware and installed new software, repaired hardware issues. Advanced level in English Language, (writing, speaking, listening and reading). 
+        </div>
+      
+        <div>
+        <h2>Experiência</h2>
+        <h5>Técnico de Suporte Senior - NTT DATA BRASIL</h5>
+          <ul>
+          <li>03/2019 - Trabalhando atualmente.</li>
+          <li>Atendimento aos chamados do Comitê de Crise, Corpo Executivo e da Presidência do Cibitank Brasil.</li>
+          <li>Gestão dos Equipamentos de videoconferência.</li>
+          <li>Auxio aos Clientes do Citibank nas questões de conexão com rede Wi-fi e videoconferência.</li>
+        </ul>
+      </div>
+      
+        
+        <div>
+          <h5>Técnico de Suporte - COBASI </h5>
+          <ul>
+            <li>07/2016 - 10/2017</li>
+            <li>Atendimento aos chamados referentes à manutenção preventiva e corretiva, suporte (níveis I e II) de computadores e aos usuários para 100 unidades de negócio da empresa, incluindo Centro de Distribuição, E-commerce e SAC.</li>
+            <li>Gerenciamento, manutenção, reparo, cotação e compra de ativos de T.I, tais como desktops,impressoras, softwares, hardwares, monitores, suprimentos de impressão e cabeamento estruturado.</li>
+          </ul> 
+        </div>
 
-                    <label type="E-mail">Email</label><br>
-                    <input type="email"><br>
+        <div>
+          <h5>Técnico de Suporte - FUNDAÇÃO INSTITUDO DE ADMINISTRAÇÃO </h5>
+        <ul>
+          <li>03/2011 - 07/2016</li>
+          <li>Atendimento de chamados de manutenção de computadores e suporte técnico (níveis I e II).</li>
+          <li>Organização de sala de aula, preparação de arquivos para professores, alteração de layout de sala, instalação de notebook e equipamentos de áudio, tais como microfones, câmeras e caixas de som.</li>
+          </ul>
+        </div>
+        
+        <div>
+        <h5>Formação</h5>
+        <ul>
+          <li>Formado em Rede de Computadores - UNIFIEO - 2011</li>
+          <li>ICL Auckland English Academy - 2018</li>
+          <li>Android Mobile Developer - Digital House - 2019</li>
+        </ul>
+      </div>
+  
+  
 
-                    <label for="">Anexe um arquivo</label><br>
-                    <input type="file"><br>
+  <footer class="bg-dark">
+  <p><bold>Victor Henrique da Silva Segatelli 2020  &copy;  <a
+      href="mailto:victorsegatelli@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil!">victorsegatelli@gmail.com
+      | <a
+        href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
+        target="_blank" rel="noopener noreferrer">Me escreva no Whatsapp</a></p></bold>
+  </footer>
+  
 
-                    <label for="">Telefone</label><br>
-                    <input type="tel"><br>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 
-                    <label for="">Anos de mercado da empresa</label><br>
-                    <input type="number"><br>
-
-                    <label for="">Cor do logo da empresa</label><br>
-                    <input type="color"><br>
-
-                    <label for="">Data prevista para início do trabalho</label><br>
-                    <input type="date" name="" id=""><br>
-
-                    <label for="">Deixe aqui seus comentários</label><br>
-                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
-
-                    <button type="reset">Limpar</button>
-
-                    <button type="submit">Enviar</button>                    
-
-                    </label>
-
-                </form>
-                
-                
-            </he>
-        </section>
-    </main>
-    <footer>
-        <p>Victor Henrique da Silva Segatelli 2020 &copy; | <a href="mailto:victorsegatelli@gmail.com?subject=Vaga%20de%20Programador%20Jr&body=Olá,%20gostei%20do%20seu%20perfil!">victorsegatelli@gmail.com |  <a href="https://wa.me/+551199019908?text=Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A" target="_blank" rel="noopener noreferrer">Me escreva no Whatsapp</a></p>
-    </footer>
 </body>
+
 </html>

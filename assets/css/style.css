@@ -1,32 +1,41 @@
 * {
    margin: 0;
    padding: 0;
-   box-sizing: border-box;    
+   box-sizing: border-box;
+  scroll-behavior: smooth; 
 }
+
+img{
+  background-size: 100%;
+  position: relative;
+
+}
+
+
 body{
-    padding: 32px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: crimson;
-}
-section{
-    border: 1px solid#808080;
-    padding: 16px;
+  font-family: Arial;
+  font-size: 16px;
 }
 
-section.destaque {
-    background-color: #dfdfdf;;
-    border-radius: 8px;
-}
+main{
+  margin-top: 56px;
+  min-height: calc(100vh - 100px);
+  }
 
-.destaque{
-    color: #1443dc;
+  footer{
+    height: 44px;
+    background-color: silver;
+  text-align: center;
+  }
+  
+  img{
+    height: 100%;
+    width: auto;
+  }
+
+footer{
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
-#email {
-    background-color: darkgoldenrod;
-}
+  
